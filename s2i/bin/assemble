@@ -1,2 +1,3 @@
 #!/bin/sh
-tar mxzf - && hack/build-cross.sh
+cp -Rf /tmp/src/. /go/src/github.com/openshift/origin
+/usr/bin/openshift-origin-build.sh
