@@ -1,0 +1,2 @@
+#!/bin/sh
+tar mxzf - && hack/build-cross.sh
